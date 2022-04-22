@@ -1,10 +1,12 @@
 {
+  "homepage": "https://github.com/sebastianevado/react-cripto-dum.git",
   "name": "react-cryp-ex",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^0.25.0",
